@@ -1,0 +1,203 @@
+.about h1 {
+    text-align: center;
+    width: 90%;
+}
+.about h2 {
+    text-align: center;
+    width: 100%;
+}
+.about p {
+    /* margin-top: 10%; */
+    /* text-align: center; */
+    width: 100%;
+}
+
+
+.vision, .mision {
+    margin: 5% 0;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+  }
+
+.contact {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 10px;
+}
+
+.contact h2{
+    text-align: left;
+    color: red;
+}
+
+.phone {
+    margin-top: 5%;
+}
+
+.email-contact {
+    margin-top: 5%;
+}
+
+.email-contact input {
+    font-size: 14px;
+    color: #000000;
+    padding: 16px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-color: rgba(29,29,29,0.2);
+    width: 400px;
+}
+
+.first {
+    width: 25%;
+}
+
+.email-contact textarea {
+    font-size: 14px;
+    color: #000000;
+    padding: 16px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-color: rgba(29,29,29,0.2);
+    width: 400px;
+    height: 160px;
+    line-height: 2;
+    overflow: auto;
+}
+
+input:focus, textarea:focus, select:focus , textarea:focus-visible {
+    border-style: solid !important;
+    border-color: #ec2028 !important;
+}
+
+input:active, textarea:active, select:active {
+    border-style: solid !important;
+    border-color: #ec2028 !important;
+}
+
+textarea:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.email-contact #submit-btn {
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    font-weight: 600;
+    background-color: red;
+    height: 45px;
+    width: 100%;
+
+}
+
+.email-contact #submit-btn:hover {
+    color: white;
+    background: #ec2028;
+
+}
+
+
+.alert {
+    position: relative;
+    padding: .75rem .75rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 300px;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-dismissible {
+    padding-right: 4rem;
+}   
+
+.d-block {
+    display: block!important;
+}
+
+.rounded-0 {
+    border-radius: 0!important;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+}
+
+.alert button{
+    color: #ec2028;
+}
+
+.close:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.mit h1 {
+    width: 100%;
+    text-align: center;
+    /* background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 10px; */
+}
+
+.mit-image {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 10px;
+
+}
+
+.wire-harness h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.wire-harness img {
+    width: 105%;
+}
+
+.about h4 {
+    margin-top: 2%;
+    width: 90%;
+    text-align: left;
+}
+
+.about ul {
+    width: 90%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+/* email */
+
