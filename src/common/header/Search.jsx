@@ -1,8 +1,6 @@
 import React,  { useState, useEffect } from "react"
 import logo from "../../components/assets/images/HW1.png"
-import { Link } from "react-router-dom"
 import Navbar from "./Navbar"
-import Navbarmenu from "./Navbarmenu"
 
 const Search = () => {
 

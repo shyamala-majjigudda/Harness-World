@@ -1,8 +1,8 @@
 import React from "react"
-import Categories from "./Categories"
+// import Categories from "./Categories"
 import "./Home.css"
 import SliderHome from "./Slider"
-import NewArrivals from "../newarrivals/NewArrivals"
+// import NewArrivals from "../newarrivals/NewArrivals"
 import TopCate from "../top/TopCate"
 
 const Home = () => {
