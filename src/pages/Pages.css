@@ -31,9 +31,15 @@
     margin: 10px;
 }
 
-.contact h2{
+.contact h1{
     text-align: left;
     color: red;
+}
+
+.contact .title h1{
+    text-align: center;
+    width: 100%;
+    color: black;
 }
 
 .phone {
@@ -201,3 +207,46 @@ textarea:focus-visible {
 
 /* email */
 
+  .contact h2 {
+    /* margin: 5%; */
+    text-align: center;
+    /* background: aqua; */
+    height: 50%;
+    padding-top: 30%;
+}
+
+/* input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    color: #444;
+    font-size: 1em;
+    border-radius: 2px;
+    font-family: inherit;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border: 1px solid rgba(167, 167, 167, .4);
+} */
+
+.mobileGrid textarea {
+    font-size: 14px;
+    color: #000000;
+    padding: 2px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-color: rgba(29,29,29,0.2);
+    width: 200px;
+    height: 160px;
+    line-height: 2;
+    overflow: auto;
+}
+
+.mobileGrid input {
+    font-size: 14px;
+    color: #000000;
+    padding: 2px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-color: rgba(29,29,29,0.2);
+    width: 200px;
+}

@@ -1,4 +1,4 @@
-import React,  { useState } from "react"
+import React, { useState, useEffect } from "react"
 import * as emailjs from "emailjs-com";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 // import Jumbotron from "react-bootstrap/Jumbotron";
@@ -23,6 +23,22 @@ const contactConfig = {
 };
 
 const Contact = () => {
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
@@ -83,11 +99,11 @@ const Contact = () => {
   return (
     <>
      <section className='contact background container'>
-        <div className='container d_flex'>
+        <div className='container d_flex title'>
           <h1>CONTACT US</h1>
         </div>
         <div className='content contact'>
-          <h2>Harness World</h2>
+          <h1>Harness World</h1>
           <p>1st main road, opposite to seegehalli govt school,</p>
           <p> Bangalore - 560049</p>
           <p> Karnataka, India</p>
@@ -105,11 +121,18 @@ const Contact = () => {
               <label> worldofharness@gmail.com</label>
             </div>
           </div>
+          {isMobile && (  <div>
+            <h2>Get In touch</h2>
+          </div>)}
 
-        <div className='container grid2 email-contact'>
-          <div class="box">
-            <h1>Get In touch</h1>
-          </div>
+
+        <div className={isMobile ? "mobileGrid container email-contact" : "container grid2 email-contact"} >
+          { !isMobile && (
+            <div class="box">
+              <h2>Get In touch</h2>
+            </div>
+          )}
+
 
           <div class="container send-email">
             <HelmetProvider>
