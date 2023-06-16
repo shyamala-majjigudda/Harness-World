@@ -5,7 +5,7 @@ const Products = () => {
     return (
       <>
         <WireHarness />
-        <Transformers />
+        {/* <Transformers /> */}
       </> 
     )
   }

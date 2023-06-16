@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Sdata from "./Sdata"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -15,6 +15,22 @@ const SlideCard = () => {
       return <ul style={{ margin: "0px" }}>{dots}</ul>
     },
   }
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  
   return (
     <>
       <Slider {...settings}>
@@ -29,7 +45,7 @@ const SlideCard = () => {
                   {/* <button className='btn-primary'>CONTACT US</button> */}
                 </div>
                 <div className='right'>
-                  <img src={value.cover} alt='' />
+                 { (!isMobile) && (<img src={value.cover} alt='' />)}
                 </div>
               </div>
             </>

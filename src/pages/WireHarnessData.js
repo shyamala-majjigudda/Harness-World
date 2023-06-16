@@ -79,6 +79,46 @@ const WireHarnessData = [
     //     para: "Aerospace",
     //     desc: "4k orders this week",
     //   },
+    {
+      cover: "./images/wire-harness/wire-harness-17.jpeg",
+      para: "Medical",
+      desc: "6k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-18.jpeg",
+      para: "Audio",
+      desc: "4k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-19.jpeg",
+      para: "Textile",
+      desc: "6k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-20.jpeg",
+      para: "Vending Machines",
+      desc: "6k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-21.jpeg",
+      para: "Electronics",
+      desc: "3k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-22.jpeg",
+      para: "Aerospace",
+      desc: "4k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-23.jpeg",
+      para: "Medical",
+      desc: "6k orders this week",
+    },
+    {
+      cover: "./images/wire-harness/wire-harness-24.jpeg",
+      para: "Audio",
+      desc: "4k orders this week",
+    },
   ]
   
   export default WireHarnessData
