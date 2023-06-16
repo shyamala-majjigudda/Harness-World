@@ -1,5 +1,5 @@
 import WireHarness from "./WireHarness"
-import Transformers from "./Transformers"
+// import Transformers from "./Transformers"
 
 const Products = () => {
     return (
