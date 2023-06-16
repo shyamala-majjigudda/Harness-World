@@ -6,9 +6,9 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 // import "./Contact.css"
 
 const meta = {
-  title: "NV2S",
+  title: "Harness World",
   description:
-    "NV2S Engineering technology",
+    "Harness World",
 };
 
 const contactConfig = {
